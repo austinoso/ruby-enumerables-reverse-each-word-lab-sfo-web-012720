@@ -1,9 +1,5 @@
 def reverse_each_word(str)
 
-reversed_word = ""
+puts split_array = str.split(" ")
 
-split_array = str.split(" ")
-split_array.each {|x| reversed_word += x}
-
-puts reversed_word
 end
